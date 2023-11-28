@@ -1,0 +1,10 @@
+{
+    "name": "Auto Skip AD",
+    "description": "YoutubeのADを自動でスキップする",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["auto-click-skip-ad.js"]
+    }]
+  }
